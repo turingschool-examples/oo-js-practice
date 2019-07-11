@@ -33,7 +33,6 @@ Pass tests in the following order:
 
 - player
 - team
-
 - student
 - course
 - gradebook
