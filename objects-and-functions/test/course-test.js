@@ -1,6 +1,5 @@
 var assert = require('chai').assert;
 var Course = require('../lib/course');
-var Student = require('../lib/student');
 
 describe('Course', function() {
 
