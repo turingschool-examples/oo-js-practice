@@ -1,38 +1,31 @@
-# JavaScript Foundations
+# OO JavaScript Practice
 
 Each exercise emphasizes the fundamentals of object oriented programming in JavaScript.
-
-To begin, `cd` into each of the directories and follow the instructions in the README.
-
-1. Mythical Creatures
-2. Objects and Functions
-3. Wizarding Objects
-4. Wizarding Arrays
 
 ## Installation Steps
 
 1. Run `npm install`
-2. Test that the unit tests are working: Run the command `npm test mythical-creatures/test/unicorn-test.js` in your terminal
+2. Test that the unit tests are working: Run the command `npm test objects-and-functions/test/student-test.js` in your terminal
 
 You should see something like:
 
 ```shell
-> foundations@1.0.0 test /Users/robbie/turing/front-end/1mod/javascript-foundations
-> mocha "mythical-creatures/test/unicorn-test.js"
+> foundations@1.0.0 test /Users/robbie/turing/front-end/1mod/oo-js-practice
+> mocha "objects-and-functions/test/student-test.js"
 
-  Unicorn
-    - should be a function
-    - should instantiate our good friend, Unicorn
-    - should have a name
-    - should have a color
-    - should be white as default
-    - should refute isWhite
-    - should say sparklying stuff
+Student
+  1) should be a function
+  2) should have a name
+  3) should have an age
+  4) should start with no scores
+  5) should be able to log scores
+  6) should calculate average score
 
 
   0 passing (6ms)
-  7 pending
+  6 pending
 ```
 
-Go into each subdirectory, `mythical-creatures`, `objects-and-functions`, `wizarding-objects`, and `wizarding-arrays`, read the README, and work on making the test suite pass.
+## Practice Time
 
+Un-skip a test, read the contents of it, and predict why it will fail. Fail the test. Read the error, and evaluate if you were accurate in your prediction. Make the test pass! Repeat.
