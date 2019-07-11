@@ -21,7 +21,6 @@ Student
   5) should be able to log scores
   6) should calculate average score
 
-
   0 passing (6ms)
   6 pending
 ```
@@ -29,3 +28,9 @@ Student
 ## Practice Time
 
 Un-skip a test, read the contents of it, and predict why it will fail. Fail the test. Read the error, and evaluate if you were accurate in your prediction. Make the test pass! Repeat.
+
+Pass tests in the following order:
+
+- student
+- course
+- gradebook
