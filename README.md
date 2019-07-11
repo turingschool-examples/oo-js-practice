@@ -31,6 +31,9 @@ Un-skip a test, read the contents of it, and predict why it will fail. Fail the 
 
 Pass tests in the following order:
 
+- player
+- team
+
 - student
 - course
 - gradebook
