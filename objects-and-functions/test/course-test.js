@@ -10,16 +10,19 @@ describe('Course', function() {
 
   it('should have a name', function() {
     var course = new Course("Bio", 3);
+    
     assert.equal(course.name, "Bio");
   });
 
   it('should have a capacity', function() {
     var course = new Course("Bio", 3);
+
     assert.equal(course.capacity, 3);
   });
 
   it('should have a list of enrolled students', function() {
     var course = new Course("Bio", 3);
+
     assert.deepEqual(course.students, []);
   });
 

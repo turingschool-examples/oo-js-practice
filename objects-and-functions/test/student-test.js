@@ -9,16 +9,19 @@ describe('Student', function() {
 
   it('should have a name', function() {
     var student = new Student({name: "Morgan", age: 21});
+
     assert.equal(student.name, "Morgan");
   });
 
   it('should have an age', function() {
     var student = new Student({name: "Morgan", age: 21});
+
     assert.equal(student.age, 21);
   });
 
   it('should start with no scores', function() {
     var student = new Student({name: "Morgan", age: 21});
+
     assert.deepEqual(student.scores, []);
   });
 
@@ -33,10 +36,11 @@ describe('Student', function() {
 
   it('should calculate average score', function() {
     var student = new Student({name: "Morgan", age: 21});
+
     student.logScore(88);
     student.logScore(74);
 
-    assert.equal(student.calculateAverage(), 81);
+    assert.equal(student.averageGrade, 81);
   });
 
 });
