@@ -36,3 +36,5 @@ Pass tests in the following order:
 - student
 - course
 - gradebook
+- dish
+- potluck
