@@ -38,3 +38,5 @@ Pass tests in the following order:
 - gradebook
 - dish
 - potluck
+- song
+- playlist
